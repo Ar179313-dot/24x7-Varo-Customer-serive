@@ -1,192 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varo Customer Service</title>
-
-    <!-- Plausible Analytics Script -->
-    <script defer data-domain="ok2.com" src="../../plausible.io/js/script.js"></script>
-
-    <style>
-        /* Basic Reset */
-        body, h1, h2, p, a {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-        
-        body {
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            min-height: 100vh;
-            flex-direction: column;
-            margin: 0;
-        }
-
-        /* Top Header Style */
-        .header {
-            background-color: #0061f2;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            width: 100%;
-        }
-
-        .header h2 {
-            margin: 0;
-            font-size: 26px;
-            font-weight: bold;
-        }
-
-        /* Main Container */
-        .container {
-            background-color: white;
-            width: 90%;
-            max-width: 900px;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            flex-grow: 1;
-        }
-
-        h1 {
-            color: #0061f2;
-            text-align: center;
-            font-size: 28px;
-            margin-bottom: 20px;
-        }
-
-        .info {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        .call-now {
-            background-color: #007bff;
-            color: white;
-            padding: 12px;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            text-decoration: none;
-            display: block;
-            width: 100%;
-            font-size: 18px;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .call-now:hover {
-            background-color: #0056b3;
-        }
-
-        /* Footer styles */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            width: 100%;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Responsive Design */
-        @media screen and (max-width: 768px) {
-            .header h2 {
-                font-size: 22px;
-            }
-
-            .container {
-                width: 95%;
-                padding: 15px;
-            }
-
-            h1 {
-                font-size: 24px;
-            }
-
-            .info {
-                font-size: 16px;
-            }
-
-            .call-now {
-                font-size: 16px;
-                padding: 10px;
-            }
-        }
-
-        @media screen and (max-width: 480px) {
-            .container {
-                padding: 10px;
-            }
-
-            h1 {
-                font-size: 22px;
-            }
-
-            .info {
-                font-size: 14px;
-            }
-
-            footer {
-                font-size: 14px;
-                padding: 12px;
-            }
-
-            .call-now {
-                font-size: 16px;
-                padding: 12px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varo Customer Service</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+    }
+    header img {
+      width: 150px;
+      height: auto;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    .call-button {
+      background-color: #0077b6;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+      margin: 20px 0;
+    }
+    .call-button.purple {
+      background-color: #8c58d0; /* New purple color */
+      color: white;
+    }
+    .call-button.purple:hover {
+      background-color: #7a4bb8; /* Darker purple on hover */
+    }
+    .call-button:hover {
+      background-color: #023e8a;
+    }
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: left;
+    }
+    .content p {
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    footer {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <img src="https://24x7-varo-customer-service-moyermelodies.vercel.app/images/varo-logo.png" alt="Varo Logo">
+    <h1>Varo Customer Service</h1>
+  </header>
 
-    <!-- Top Header Section -->
-    <div class="header">
-        <h2>Var0 Customer Service</h2>
-    </div>
+  <a href="tel:+18086478682" class="call-button purple">Call Varo Support</a>
 
-    <div class="container">
-        <h1>Var0 Customer Service</h1>
+  <div class="content">
+    <p>
+      Varo Bank is a leading digital bank that offers a wide range of financial services designed to make banking simpler, faster, and more accessible. Unlike traditional banks, Varo operates entirely online, allowing customers to manage their finances from anywhere at any time. With no physical branches, Varo eliminates the need for long queues and paperwork, providing a seamless and user-friendly experience through its mobile app. Varo’s mission is to empower individuals to take control of their financial lives by offering innovative tools and services that promote financial wellness. From checking and savings accounts to personal loans, Varo provides a comprehensive suite of products tailored to meet the needs of modern consumers.
+    </p>
+    <a href="tel:+18086478682" class="call-button purple">Call Varo Live agent</a>
+    <p>
+      One of Varo’s standout features is its commitment to transparency and affordability. Unlike many traditional banks that charge hidden fees, Varo offers no monthly maintenance fees, no minimum balance requirements, and no overdraft fees. This customer-first approach ensures that users can manage their money without worrying about unexpected charges. Additionally, Varo’s high-yield savings accounts offer competitive interest rates, helping customers grow their savings faster. The bank also provides tools like budgeting features, spending insights, and savings goals to help users make informed financial decisions. By combining cutting-edge technology with a focus on financial inclusion, Varo is redefining what it means to be a bank in the digital age.
+    </p>
+    <p>
+      Varo is also dedicated to financial inclusion, ensuring that everyone has access to essential banking services. The bank does not require credit checks to open an account, making it accessible to individuals who may have been excluded from traditional banking systems. Varo’s early direct deposit feature allows customers to access their paychecks up to two days earlier than traditional banks, providing much-needed financial flexibility. Furthermore, Varo’s commitment to security ensures that customers’ data and funds are protected with advanced encryption and fraud detection systems. Whether you’re looking for a simple checking account, a high-yield savings option, or tools to help you budget and save, Varo offers a modern, inclusive, and customer-centric banking experience.
+    </p>
+  </div>
 
-        <div class="info">
-            <p>Varo Bank stands out with its 100% digital banking platform, offering a seamless and user-friendly experience. Unlike traditional banks, Varo eliminates the hassle of visiting physical branches, allowing customers to manage their finances anytime, anywhere through its intuitive mobile app. With features like mobile check deposit, real-time transaction alerts, and budgeting tools, Varo makes banking effortless and efficient. Its focus on innovation ensures that customers enjoy a modern, tech-driven banking experience that adapts to their needs, making it a superior choice for those who value convenience and simplicity..</p>
-            
-            <p>Varo Bank is committed to transparency and affordability, offering no monthly fees, no minimum balance requirements, and no overdraft fees. This customer-centric approach sets Varo apart from traditional banks that often charge hidden fees. Additionally, Varo provides high-yield savings accounts with competitive interest rates, helping customers grow their money faster. By prioritizing financial wellness and offering tools to save and budget effectively, Varo empowers its users to achieve their financial goals without the burden of unnecessary costs, making it a better choice for cost-conscious individuals.</p>
-
-            <p>Varo Bank is dedicated to financial inclusion, providing access to banking services for underserved communities. With no credit checks required to open an account, Varo ensures that everyone can enjoy the benefits of modern banking. Additionally, Varo offers early direct deposit, allowing customers to access their paychecks up to two days earlier than traditional banks. This feature, combined with its no-fee structure and innovative tools, makes Varo a better option for those seeking a bank that prioritizes accessibility, flexibility, and customer satisfaction. Varo’s commitment to empowering its users truly sets it apart from the competition..</p>
-
-           
-        </div>
-
-        <a href="tel:+18773778276" class="call-now">Call Now</a> 
-
-        <div class="info">
-        </div>
-    </div>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>Need help? <a href="tel:+18773778276">Call Varo customer service </a></p>
-    </footer>
-
+  <footer>
+    <a href="tel:+18086478682" class="call-button">Call Us Now</a>
+    <p>&copy; 2023 Varo Bank. All rights reserved.</p>
+  </footer>
 </body>
-
-
 </html>
